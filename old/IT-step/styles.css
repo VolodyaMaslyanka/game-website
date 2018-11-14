@@ -1,0 +1,154 @@
+html, body{
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  .grass, .sky, .road{
+    position: relative;
+  }
+  
+  .sky{
+    height: 40%;
+    background: skyblue;
+  }
+  
+  .grass{
+    height: 30%;
+    background: seagreen;
+  }
+  
+  .road{
+    height: 30%;
+    background: dimgrey;
+    box-sizing: border-box;
+    border-top: 10px solid grey;
+    border-bottom: 10px solid grey;
+    width: 100%;
+  }
+  
+  .lines{
+    box-sizing: border-box;
+    border: 5px dashed #fff;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+  }
+  
+  /*// Елементи, які треба анімувати //*/
+  
+  
+  
+  /*// @keyframes //*/
+
+  @keyframes anim{
+
+    from{
+      margin-right: 0%;
+    }
+    to{
+      margin-left: 100%
+    }
+  }
+ 
+
+
+  
+  .car
+  {
+    animation: anim 6s ease-in;
+  }
+
+
+
+
+  @keyframes anim{
+
+    from{
+      margin-right: 0%;
+    }
+    to{
+      margin-left: 100%
+    }
+  }
+.car2{
+  animation: anim 6s ease-in infinite;
+}
+.car3{
+  animation:anim 2s infinite;
+}
+
+#ass{
+  color: greenyellow;
+  background-color: purple
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
